@@ -89,3 +89,10 @@
 
 ![Consulta 6](img/consulta_12.png.jpg  "Consulta 12")
 
+13. Obtener un listado de artículos, incluyendo el nombre del artículo, su precio y el nombre de su fabricante.
+
+`SELECT a.nombre_articulo, a.precio_articulo, f.nombre_fabricante FROM articulo a JOIN fabricante f ON a.id_fabricante = f.id_fabricante;`
+
+![Consulta 6](img/consulta_13.png.jpg  "Consulta 13")
+
+
