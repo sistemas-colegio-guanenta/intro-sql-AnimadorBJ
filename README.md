@@ -61,7 +61,13 @@
 
 8. Mostrar el precio promedio de todos los productos.
 
-`SELECT AVG(precio_articulo) AS precio_promedio FROM articulo;`
+`SELECT AVG(precio_articulo) AS precio_promedio FROM Articulo;`
 
-![Consulta 6](img/consulta_8.png  "Consulta 8")
+![Consulta 6](img/consulta_8.png.jpg  "Consulta 8")
+
+9. Mostrar el precio promedio de los artículos cuyo código de fabricante sea fab02.
+
+`SELECT AVG(precio_articulo) AS precio_promedio FROM Articulo WHERE id_fabricante = 'fab02';`
+
+![Consulta 6](img/consulta_9.png.jpg  "Consulta 9")
 
