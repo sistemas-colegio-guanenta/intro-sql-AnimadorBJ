@@ -81,3 +81,11 @@
 
 `SELECT nombre_articulo, precio_articulo FROM articulo WHERE precio_articulo >= 50000 ORDER BY precio_articulo DESC, nombre_articulo ASC;`
 
+![Consulta 6](img/consulta_11.png.jpg  "Consulta 11")
+
+12. Mostrar el listado completo de artículos, incluyendo por cada artículo los datos del artículo y de su fabricante.
+
+`SELECT * FROM articulo JOIN fabricante ON articulo.id_fabricante = fabricante.id_fabricante;`
+
+![Consulta 6](img/consulta_12.png.jpg  "Consulta 12")
+
