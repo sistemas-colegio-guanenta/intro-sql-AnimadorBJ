@@ -59,3 +59,9 @@
 
 `SELECT nombre_articulo AS Articulo, precio_articulo / 4383 AS precio_USD FROM Articulo;`
 
+8. Mostrar el precio promedio de todos los productos.
+
+`SELECT AVG(precio_articulo) AS precio_promedio FROM articulo;`
+
+![Consulta 6](img/consulta_8.png  "Consulta 8")
+
