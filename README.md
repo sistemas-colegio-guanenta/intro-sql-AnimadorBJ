@@ -77,3 +77,7 @@
 
 ![Consulta 6](img/consulta_10.png.jpg  "Consulta 10")
 
+11. Obtener el nombre y el precio de los artículos cuyo precio sea igual o mayor a $50000 y ordenarlos descendente por precio y luego ascendente por nombre.
+
+`SELECT nombre_articulo, precio_articulo FROM articulo WHERE precio_articulo >= 50000 ORDER BY precio_articulo DESC, nombre_articulo ASC;`
+
