@@ -71,3 +71,9 @@
 
 ![Consulta 6](img/consulta_9.png.jpg  "Consulta 9")
 
+10. Obtener el número de artículos cuyo precio sea mayor o igual a $50000.
+
+`SELECT COUNT(*) AS cantidad_articulos FROM articulo WHERE precio_articulo >= 50000;`
+
+![Consulta 6](img/consulta_10.png.jpg  "Consulta 10")
+
