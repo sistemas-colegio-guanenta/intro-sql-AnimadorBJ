@@ -95,4 +95,9 @@
 
 ![Consulta 6](img/consulta_13.png.jpg  "Consulta 13")
 
+14. Obtener el precio promedio de los productos de cada fabricante, mostrando solo los códigos de los fabricantes.
+
+`SELECT id_fabricante, AVG(precio_articulo) AS precio_promedio FROM articulo GROUP BY id_fabricante;`
+
+![Consulta 6](img/consulta_14.png.jpg "Consulta 14")
 
